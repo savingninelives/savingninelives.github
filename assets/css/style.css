@@ -125,6 +125,12 @@ background-size: cover;
         color: #fff; 
         margin-bottom: 25px;
     }
+    #home .head-text h1 {
+        display: block; 
+        font-size: 40px; 
+        color: #e67e22; 
+        margin-bottom: 25px;
+    }
         #home .head-text span >i {
              margin-right: 10px; 
              color: #159238;
@@ -137,17 +143,18 @@ background-size: cover;
         font-weight:800;       
        text-align:center;
     }
-    #home .overlay {
-              background:url(../img/overlays/06.png);        
+    #home .overlay {     
         min-height:700px;
     }
     #home h3 {
         color:#fff;
     }
+    #home .shadowbox{
+      background-color: rgba(0, 0, 0, 0.5);
+    }
     .div-trans {
-padding-top: 5px;
+padding: 10px 10px
 background-color: rgba(0, 0, 0, 0.5);
-min-height: 330px;
 margin-top: 150px;
 color: #fff;
 -webkit-border-radius: 5px;
